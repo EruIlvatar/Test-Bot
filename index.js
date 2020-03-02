@@ -113,4 +113,4 @@ if(message.content.includes('nigger') || message.content.includes('Nigger') || m
 });
 
 
-bot.login (token);
+bot.login(process.env.token);
